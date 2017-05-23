@@ -148,6 +148,8 @@ ISR(TIMER1_OVF_vect) {
 
 	top = map(adc,0,1023,7643,15295); 
 
+// 	OCR1A = top - 7000;
+// 	ICR1 = top;
 
 	OCR1B = top - 300;
 	OCR1A = top;
@@ -160,7 +162,6 @@ ISR(TIMER1_OVF_vect) {
 // PWM_fequency = clock_speed / [Prescaller_value * (1 + TOP_Value) ]
 // clock_speed = 16Mhz
 // Prescaller_value = 1
-
 
 // map(adc,0,1023,7643,15295)
 // source=https://stackoverflow.com/questions/5731863/mapping-a-numeric-range-onto-another

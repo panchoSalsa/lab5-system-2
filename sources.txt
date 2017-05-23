@@ -1,0 +1,14 @@
+potentiometer
+source=http://www.learningaboutelectronics.com/Articles/AVR-potentiometer-circuit.php
+
+greate source on what a piezzoelectric is and how it works
+source=http://jallib.blogspot.com/2009/02/step-by-step-having-fun-with-pwm-and_14.html
+
+buzzer
+source=http://exploreembedded.com/wiki/Buzzer_with_AVR
+
+frequency
+soure=https://balau82.wordpress.com/2014/10/15/using-a-buzzer-with-arduino-in-pure-c/
+
+musical-tone
+source=http://www.petervis.com/C/pizo%20speaker/pizo%20speaker.html
